@@ -41,10 +41,7 @@ const Products = () => {
       direction="column"
       justifyContent="center"
       alignItems="center"
-      borderColor="gray.200"
-      borderWidth={1}
-      borderStyle="solid"
-      borderRadius={16}
+      marginTop="150px"
       p={4}
       mt={4}
     >

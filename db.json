@@ -78,6 +78,67 @@
       "price": "120",
       "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
       "id": 10
+    },
+    {
+      "category": "shirt",
+      "gender": "male",
+      "price": "750",
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 11
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 12
+    },
+    {
+      "category": "pant",
+      "gender": "male",
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 13
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 14
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 15
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 16
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 17
+    },
+    {
+      "title": "gykt",
+      "category": "shirt",
+      "gender": "female",
+      "price": "53",
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 18
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 19
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "id": 20
+    },
+    {
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/330px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+      "id": 21
+    },
+    {
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/330px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+      "id": 22
+    },
+    {
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/330px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+      "id": 23
     }
   ]
 }

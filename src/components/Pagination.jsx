@@ -11,7 +11,7 @@ const Pagination = ({ pageFilter, setPageFilter }) => {
     });
   };
   return (
-    <ButtonGroup size="md" isAttached variant="outline" mt={12}>
+    <ButtonGroup size="md"  mt={12}>
       <Button
         disabled={pageNumber === 1}
         onClick={() => updatePageFilter({ pageNumber: 1 })}

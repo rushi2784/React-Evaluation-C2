@@ -27,29 +27,18 @@ const AddProduct = ({ add }) => {
   const initialRef = React.useRef();
 
   const handeOnChange = (e) => {
-    let { checked, type, name, value, files } = e.target;
-    if (type === "checkbox") {
-      setForm({
-        ...form,
-        [name]: checked,
-      });
-    } else if (type === "file") {
-      setForm({
-        ...form,
-        [name]: files,
-      });
-    } else {
-      setForm({
-        ...form,
-        [name]: value,
-      });
-    }
-  };
+   
 
+  };
+const handleChangeImg=(e)=>{
+//e.preventDefault();
+   // add({ ...form, imageSrc:{e}});
+    
+}
   const handleOnSubmit = (e) => {
-    e.preventDefault();
-    add({ ...form, imageSrc: "https://picsum.photos/seed/picsum2/421/261" });
-    onClose();
+     e.preventDefault();
+     add({ ...form, imageSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/330px-Elon_Musk_Royal_Society_%28crop2%29.jpg" });
+     onClose();
   };
 
   return (
@@ -66,14 +55,22 @@ const AddProduct = ({ add }) => {
             <FormControl>
               <FormLabel>Title</FormLabel>
               <Input
-                ref={initialRef}
+       
                 placeholder="Title"
                 name="title"
                 data-cy="add-product-title"
                 onChange={handeOnChange}
               />
             </FormControl>
-
+    <FormControl>
+              <FormLabel>Image url</FormLabel>
+              <Input
+               
+                placeholder="Image url"
+                name="url"
+                onChange={handleChangeImg}
+              />
+            </FormControl>
             <FormControl mt={4}>
               <FormLabel>Category</FormLabel>
               <Select
@@ -137,7 +134,7 @@ const AddProduct = ({ add }) => {
             <Flex flexDirection="row-reverse">
               <Button
                 mt={4}
-                colorScheme="teal"
+                colorScheme="blue"
                 type="submit"
                 data-cy="add-product-submit-button"
                 onClick={handleOnSubmit}
